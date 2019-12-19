@@ -1,14 +1,6 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
-  # data.reduce() do |memo, (key, value)|
-  #   pp memo
-  #   pp key
-  #   pp value
-  #   binding.pry
-  #   memo
-  # end
   new_hash = {}
   data.each do |attribute, data|
     data.each do |data_type, names|
